@@ -1,0 +1,19 @@
+{
+    "name": "Drupal Flush Sound",
+    "version": "1.0",
+    "description": "Plays a flushing toilet sound when flushing the caches",
+    "manifest_version": 2,
+	"author": "John-Paul Takats",
+
+
+	"web_accessible_resources": [
+		"bath-flush3.wav"
+	],
+
+	"content_scripts": [
+		{
+			"matches": ["https://www-staging.rit.edu/admissions/new/*"],
+			"js": ["cont.js"]
+		}
+	]
+}
