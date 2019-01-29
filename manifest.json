@@ -12,7 +12,7 @@
 
 	"content_scripts": [
 		{
-			"matches": ["https://www-staging.rit.edu/admissions/new/*"],
+			"matches": ["https://www-staging.rit.edu/*"],
 			"js": ["cont.js"]
 		}
 	]
